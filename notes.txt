@@ -1,0 +1,46 @@
+- question view screen me 
+    - header solution window aur question description window ki height thode perfect tareeke se kar sakte hai
+
+-FirstDraft
+-FRONTEND
+    - question view screen only 
+        - single question description 
+        - multiline supportive textbox
+            - just wrtiting the code for completing the function
+            - submit button
+            - no of test cases passed or failed
+-BACKEND
+    - run solutions locally
+    - docker implementation of js solutions
+        - // didnt really understood docker fully tbh 
+        - create a simple js running docker container
+            - 3 running containers for the 3 languages starts with the server
+            - the docker containers hosted locally wherever the server is hosted 
+            - can communicate through network requests
+            - {// 3 ways of checking 
+                - mapping the answers to predetermined solutions
+                - re-running the tc with a solution function 
+                - checking the given solution with a checker function    
+                    //}
+    - store the submitted solutions in db
+
+
+-Docker Restriction
+    - matlab wo function aur uska naam same rakhna user ki tension
+    - usko kucch memory hi allocate karni hai 
+    - usko kucch time hi allocate karna hai ( jo predefined hoga problem me )
+    - aur usko kucch specific cheezo/js wali cheezo ki access nahi deni 
+    - YA FIR usko koi bhi file write access console etc. etc. access nahi deni
+
+for now I realized This can be broken down into
+    - restricting user access to resources
+    - restricting the time for which the function executes ( and terminating it in between )
+    - restrincting the memory usage 
+    https://chat.openai.com/share/298c2352-3d67-495d-a7a3-b4c8f015454b
+
+
+
+
+
+
+

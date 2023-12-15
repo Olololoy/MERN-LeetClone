@@ -5,7 +5,7 @@ import './styles.css';
 
 function QuestionViewScreen() {
     return (
-        <div className='parentDiv'>
+        <div className='QVSparentDiv'>
             <QVSHeader/>
             <div className='contentDiv'>
                 <QuestionDescriptionWindow/>

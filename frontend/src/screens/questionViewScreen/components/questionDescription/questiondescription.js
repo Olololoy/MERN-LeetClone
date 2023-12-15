@@ -1,6 +1,10 @@
+import './styles.css';
+
 function QuestionDescriptionWindow() {
     return (
-        'question description window here'
+        <div className='QDWparentDiv'>
+        question description window here
+        </div>
     )
 }
 
