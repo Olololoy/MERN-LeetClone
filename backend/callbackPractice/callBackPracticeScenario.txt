@@ -1,0 +1,22 @@
+Certainly! You are developing a web scraper in Node.js for an e-commerce website that sells books. The tasks are as follows:
+
+1. **Fetch List of URLs:**
+   - Domain: `https://example-books-website.com`
+   - Task: Initiate an HTTP request to fetch a list of book URLs, e.g., `/books`, from the website.
+
+2. **Retrieve HTML Content for Each URL:**
+   - Task: For each book URL obtained, make a request to retrieve the HTML content of the page.
+   - Example Book URL: `https://example-books-website.com/books/book1`
+   
+3. **Extract Book Information:**
+   - Task: Extract specific data from the HTML content, such as the book title, author, and price.
+   - Data to Extract:
+     - Book Title: `<h1 class="book-title">The Great Book</h1>`
+     - Author: `<span class="author">John Doe</span>`
+     - Price: `<span class="price">$19.99</span>`
+
+4. **Save Data to Database:**
+   - Task: Save the extracted book information (title, author, price) to a database.
+
+Now, explain how you would structure your code using callbacks to handle these asynchronous tasks, 
+    considering the nested nature of callbacks that may lead to callback hell.
